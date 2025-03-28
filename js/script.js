@@ -280,14 +280,15 @@ const serviceSlider = new Swiper(".service-slider", {
   },
 });
 const siteSlider = new Swiper('.site', {
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-      navigation: {
+  navigation: {
         nextEl: 'footer .dep1 .btn-wrap .swiper-button-next',
         prevEl: 'footer .dep1 .btn-wrap .swiper-button-prev',
         clickable: true
-      }
+      },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+     
 
     },
     650: {
